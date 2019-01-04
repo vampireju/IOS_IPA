@@ -1,12 +1,10 @@
 # IOS_IPA
-Welcome to the IOS_IPA wiki!
 一、打包ipa和生成.plist文件具体步骤：
 1、在苹果开发者后台生成签名文件，使用developer profile或者adhoc distribution profile这边注意不能使用distribution profile，因为这不是发布到Appstore。 
 2、生成archive，点击菜单栏product中的archive选项进行打包 
 3、在organizer中点击archive进行distribute，发布的过程中注意选择save for enterprise distribution，不然会失败，完成保存会生成俩文件 .ipa文件和 .plist文件。其中.ipa文件就是应用程序文件， .plist文件是苹果需要通过itms-services协议访问的文件。
 
 下面是.plist文件的格式
-
 <?xml version="1.0" encoding="UTF-8"?>  
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
 <plist version="1.0">  
