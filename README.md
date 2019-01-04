@@ -20,7 +20,7 @@ Welcome to the IOS_IPA wiki!
                     <key>kind</key>  
                     <string>software-package</string>  
                     <key>url</key>  
-                    <string>http://218.94.107.227:8996/wJob/job.ipa</string>  
+                    <string>http://113.200.5.104:8996/wJob/job.ipa</string>  
                 </dict>  
             </array>  
             <key>metadata</key>  
@@ -41,7 +41,7 @@ Welcome to the IOS_IPA wiki!
 属性不多，不做具体解释，这边只关心一点
 
 <key>url</key>  
-<string>http://218.94.107.227:8996/wJob/job.ipa</string>
+<string>http://113.200.5.104:8996/wJob/job.ipa</string>
 这边是我们生成的ipa文件存放的位置。
 
 二、现在万事俱备只欠东风啦，只需要客户端能够成功访问到我们生成的.plist文件即可。
